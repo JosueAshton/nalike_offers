@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "429294924383",
+    "firebase_url": "https://nalike-offers.firebaseio.com",
+    "project_id": "nalike-offers",
+    "storage_bucket": "nalike-offers.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:429294924383:android:8743bcc93032e02a",
+        "android_client_info": {
+          "package_name": "lsi.proyecto6to.com.nalikeoffers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "429294924383-1esja4qptgi7o518dkpm5u0ni32upaud.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArl6ppWtIupXy-ynqzt-YFl-nGhHdNbOk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

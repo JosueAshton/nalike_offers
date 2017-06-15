@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="lsi.proyecto6to.com.nalikeoffers.LoginActivity"
+    android:background="@drawable/fondo"
+    android:id="@+id/svLogin"
+
+    >
+
+    <RelativeLayout
+
+        android:id="@+id/rlLogin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:id="@+id/tvTitleRegistro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/colorBlanco1"
+            android:layout_marginTop="@dimen/title"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/tvSubTitleRegistro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/registro"
+            android:textColor="@color/colorBlanco1"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Display1"
+            android:layout_below="@+id/tvTitleRegistro"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/tvDescriptionRegistro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo_registro"
+            android:textColor="@color/colorBlanco1"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:layout_below="@+id/tvSubTitleRegistro"
+            android:gravity="center"
+            />
+
+        <ImageView
+            android:id="@+id/imgPerfilRegistro"
+            android:background="@color/colorAccent"
+            android:layout_width="260dp"
+            android:layout_height="240dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+
+            android:layout_below="@+id/tvDescriptionRegistro"
+            android:layout_centerInParent="true"
+            android:elevation="300dp"
+            />
+
+        <LinearLayout
+            android:id="@+id/lyCamGaRegistro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+
+            android:layout_below="@+id/imgPerfilRegistro"
+            android:layout_centerInParent="true"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlanco1"
+                    android:text="Cámara"/>
+                <Button
+                    android:id="@+id/btnPhotoCam"
+                    android:layout_width="52dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_camara"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlanco1"
+                    android:text="Galeria"/>
+                <Button
+                    android:id="@+id/btnPhotoGall"
+                    android:layout_width="40dp"
+                    android:layout_height="39dp"
+                    android:layout_marginTop="6dp"
+                    android:background="@drawable/btn_galeria"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/etNameRegistro"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center"
+            android:background="@drawable/bg_texto"
+            android:gravity="center"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:text=""
+            android:hint="@string/hint_name_registro"
+
+            android:layout_below="@+id/lyCamGaRegistro"
+            android:layout_centerInParent="true"
+
+            />
+
+        <EditText
+            android:id="@+id/etLastNameRegistro"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center"
+            android:background="@drawable/bg_texto"
+            android:gravity="center"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:text=""
+            android:hint="@string/hint_lastaname_registro"
+
+            android:layout_below="@+id/etNameRegistro"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/descripcion"
+
+            />
+
+        <EditText
+            android:id="@+id/etCorreoRegistro"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center"
+            android:background="@drawable/bg_texto"
+            android:gravity="center"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:text=""
+            android:hint="@string/hint_email"
+
+            android:layout_below="@+id/etLastNameRegistro"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/descripcion"
+
+            />
+
+        <EditText
+            android:id="@+id/etEmailLogin"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center"
+            android:background="@drawable/bg_texto"
+            android:gravity="center"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:text=""
+            android:hint="@string/hint_email"
+
+            android:layout_below="@+id/etCorreoRegistro"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/descripcion"
+
+            />
+
+
+        <EditText
+            android:id="@+id/etPassRegistro"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center"
+            android:background="@drawable/bg_texto"
+            android:gravity="center"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:hint="@string/hint_pass"
+
+            android:layout_below="@+id/etEmailLogin"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+
+            />
+
+        <EditText
+            android:id="@+id/etRepPassRegistro"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center"
+            android:background="@drawable/bg_texto"
+            android:gravity="center"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:hint="@string/hint_repeat_pass_registro"
+
+            android:layout_below="@+id/etPassRegistro"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+
+            android:layout_below="@+id/etRepPassRegistro"
+            android:layout_alignParentBottom="false"
+            android:layout_marginTop="20dp"
+            >
+            <Button
+                android:id="@+id/btnRegistrar"
+                android:layout_width="165dp"
+                android:layout_height="100dp"
+                android:background="@drawable/btn_registrar" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

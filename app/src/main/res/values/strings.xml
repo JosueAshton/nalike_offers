@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Nalike Offers</string>
+    <string name="minimum_password">Minimo 6 caracteres</string>
+    <string name="auth_failed">Fallo la autenticacion</string>
+    <string name="title_activity_principal">Nalike Offers</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="mi_perfil">Perfil</string>
+    <string name="mi_salir">Salir</string>
+
+    <string name="title_section1">Teléfonos</string>
+    <string name="title_section2">Tablets</string>
+    <string name="title_section3">Portátiles</string>
+
+    <string name="action_shop">Carrito De Compras</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_oferta_maps">OfertaMapsActivity</string>
+
+    <!-- Login String -->
+    <string name="login">Iniciar Sesión</string>
+    <string name="titulo_login">Bienvenido a Nalike Offers</string>
+    <string name="descripcion_login">¡Recibe las mejores ofertas que están cerca de ti!</string>
+    <string name="lbl_email">Correo:</string>
+    <string name="hint_email">Correo electronico</string>
+    <string name="lbl_pass">Contraseña:</string>
+    <string name="hint_pass">Contraseña</string>
+    <string name="recuperar_pass">Olvidaste tu contraseña?, Presiona aqui!</string>
+
+    <!-- Registro String -->
+    <string name="registro">Inscripción de usuarios</string>
+    <string name="titulo_registro">Llene el siguiente formulario</string>
+    <string name="hint_name_registro">Nombre</string>
+    <string name="hint_lastaname_registro">Apellido</string>
+    <string name="hint_repeat_pass_registro">Repita la contraseña</string>
+    <string name="hint_fecha_nac_registro">Fecha de nacimiento</string>
+    <string name="hint_direccion_registro">Domicilio:</string>
+
+</resources>
